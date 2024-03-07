@@ -42,7 +42,8 @@
 
 /* LOGIN FORM */
 
-#form-box {
+#form-box,
+#register-container {
     background-color: #FFF;
     border: 1px solid #DBDBDB;
     width: 350px;
@@ -161,5 +162,92 @@
 #other-links {
     background-color: #FFF;
 }
+
+
+
+/* CHAMADA CADASTRO */
+
+#register-container {
+    margin-top: 10px;
+    padding: 25px;
+}
+
+#register-container p {
+    background-color: #FFF;
+    font-size: 14px;
+    color: #262626
+}
+
+#register-container a {
+    background-color: #FFF;
+    color: #4A95F6;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+
+/* GET APP */
+
+#get-app-container {
+    text-align: center;
+    width: 350px;
+}
+
+#get-app-container p {
+    margin: 20px 0;
+    font-size: 13px;
+}
+
+#get-app-container a {
+    text-decoration: none;
+}
+
+#get-app-container img {
+    width: 136px;
+    height: 40px;
+}
+
+
+
+/* FOOTER */
+
+footer {
+    text-align: left;
+    width: 1000px;
+    margin: 50px auto;
+}
+
+footer #footer-links {
+    list-style: none;
+}
+
+footer #footer-links li {
+    display: inline-block;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+#footer-links a {
+    text-decoration: none;
+    color: #00376B;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#copyright {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #8E8E8E;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
 
 
