@@ -244,6 +244,70 @@ footer #footer-links li {
 
 
 
+/* MOBILE */
+
+@media(max-width: 450px) {
+
+    html {
+        background-color: #FFF;
+    }
+
+    body {
+        background-color: #FFF;
+    }
+
+    #banner-container {
+        display: none;
+    }
+
+    #main-container,
+    #form-box {
+        background-color: #FFF;
+        margin-top: 0;
+    }
+
+    #form-container,
+    #form-box,
+    #register-container,
+    #get-app-container {
+        background-color: #FFF;
+        width: 100%;
+        border: none;
+    }
+
+    #get-app-container p {
+        background-color: #FFF;
+    }
+
+    footer {
+        background-color: #FFF;
+        width: 90%;
+        text-align: center;
+    }
+
+    #footer-links {
+        background-color: #FFF;
+    }
+
+    #footer-links li {
+        background-color: #FFF;
+        margin-bottom: 10px;
+    }
+
+    #footer-links a {
+        background-color: #FFF;
+    }
+
+    #copyright {
+        background-color: #FFF;
+    }
+
+}
+
+
+
+
+
 
 
 
